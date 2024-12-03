@@ -1,0 +1,263 @@
+body {
+  padding: 0;
+  margin: 0;
+  gap: 0;
+  background-color: white;
+  position: relative;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: Akrobat;
+  src: url(../fonts/Akrobat-Regular.otf);
+}
+@font-face {
+  font-family: Zona Pro;
+  src: url(../fonts/ZonaPro-Bold.otf);
+}
+.background {
+  display: flex;
+  height: 100%;
+}
+.background .yellow {
+  background-color: #FFEE2F;
+  width: 102.55rem;
+  height: 70.875rem;
+  position: absolute;
+  top: 0;
+  margin-left: 17.5rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-left: 5.25rem;
+  max-width: 114.75rem;
+  max-width: 7.5rem;
+  position: relative;
+  z-index: 2;
+}
+header .icon img {
+  width: 8.4375rem;
+  height: 4.6875rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.main_nav {
+  display: flex;
+  align-items: center;
+  margin-left: 48.6875rem;
+}
+.main_nav a {
+  text-decoration: none;
+  color: #000000;
+  margin-right: 3.75rem;
+  font-family: Akrobat;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5613rem;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.main_nav button {
+  width: 7.5rem;
+  height: 7.5rem;
+  color: white;
+  background-color: #CE0002;
+  border: 0;
+  font-family: Akrobat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.98px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.home {
+  width: 8.5rem;
+}
+
+main {
+  position: relative;
+  z-index: 2;
+}
+
+.front_part {
+  display: flex;
+}
+.front_part img {
+  width: 49.125rem;
+  height: 45.8125rem;
+  margin-top: 14.5625rem;
+  margin-left: -4.625rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.slogan {
+  width: 67.3125rem;
+  height: 15.9375rem;
+  margin-top: 20.375rem;
+  margin-left: 5.375rem;
+}
+.slogan p {
+  font-family: Zona Pro;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 84.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  width: 2rem;
+  height: 17.625rem;
+  margin-top: -14.25rem;
+  margin-left: 5.5rem;
+}
+.social div {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.0625rem;
+  margin-left: -0.09rem;
+  padding: 0.1669rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.linksAndMore {
+  display: flex;
+}
+
+.more_detailed {
+  display: flex;
+  margin-top: -11.125rem;
+  margin-left: 5.875rem;
+}
+.more_detailed button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  background-color: #CE0002;
+  border: 0;
+  height: 7.5rem;
+  width: 7.5rem;
+}
+.more_detailed p {
+  width: 6.3125rem;
+  height: 3.375rem;
+  font-family: Akrobat;
+  font-size: 1.375rem;
+  font-weight: 800;
+  line-height: 1.7175rem;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.quote {
+  margin-left: 4.5625rem;
+}
+.quote p {
+  width: 28.6875rem;
+  height: 5.625rem;
+  font-family: Akrobat;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.8738rem;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8.375rem;
+  background-color: #EFEFEF;
+  width: 120rem;
+  height: 3.375rem;
+}
+footer a {
+  text-decoration: none;
+  color: #7E7E7E;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.nav_footer a {
+  padding: 1.3125rem;
+  font-family: Akrobat;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2488rem;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.social_footer {
+  display: flex;
+  height: 17.625rem;
+  margin-top: 13rem;
+  margin-right: 10px;
+  flex-direction: row;
+}
+.social_footer div {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.0625rem;
+  margin-left: -0.09rem;
+  padding: 0.1669rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.Inc {
+  margin-left: 1.6875rem;
+}/*# sourceMappingURL=style.css.map */
